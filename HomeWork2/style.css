@@ -1,0 +1,22 @@
+p{
+    color: blue;
+}
+
+a[href^="https://"] { 
+    color:red;
+   }
+.holder p {
+    font-size: 26px;
+}
+#last{
+    color: green;
+}
+
+.text-box h3:hover{
+    color:pink;
+}
+
+#greycol ::after{
+    content:"";
+     color: grey;
+}

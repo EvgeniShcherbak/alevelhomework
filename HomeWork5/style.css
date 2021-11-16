@@ -1,0 +1,119 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    display: flex;
+    flex-grow: 1;
+}
+.container{
+    max-width: 1080px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    padding: 20px 0;
+    background: #D3B714;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item + .nav-item{
+    padding-left: 10px;
+    list-style-type: none;
+  
+}
+a{  
+    color: #000000;
+    text-decoration: none;
+}
+.content-col{
+    display: flex;
+    flex-grow: 1;
+}
+.content,
+.sidebar{
+    height: 100%;
+}
+.content{
+    max-width: 920px;
+    padding: 25px 35px;
+    flex-grow: 1;
+    
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .content-wrapper{
+    max-width: 920px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content .content-wrapper .content-item{
+    position:relative;
+    margin: 20px;
+    width: 238px;
+    height: 334px;
+    padding: 8px 12px;
+    border: 2px solid #d3d3d3;
+    border-radius: 10px;
+}
+.content .content-wrapper .content-item .content-round{
+    display: flex;
+    justify-content: center;
+}
+.content .content-wrapper .content-item .content-round .content-icon{
+    width: 80px;
+    height: 80px;
+    border: 8px solid #d3d3d3;
+    border-radius: 50px;
+}
+.conent-item-title,
+.content-descr{
+text-align: center;
+}
+.content .content-wrapper .content-item .content-button{
+    position:absolute;
+	bottom: 12px;
+    color: white;
+    left: 105px;
+    width: 50px;
+    height: 35px;
+    background-color: #696969;
+    border-radius: 30px;
+}
+.sidebar{
+    flex-basis: 210px;
+    padding: 10px;
+    text-align: center;
+}
+.sidebar-left{
+    background: #c79889;
+    order: -1;
+}
+.sidebar-right{
+    background: #9cb1c7;
+}
+.footer{
+    background: #86ecb6;
+    padding: 10px;
+    text-align: center;
+}
